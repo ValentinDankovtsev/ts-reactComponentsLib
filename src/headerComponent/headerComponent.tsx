@@ -1,15 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-export type HeaderPropsType = {
+export interface HeaderPropsType {
   level: number;
   text: string;
-};
+}
 
-export class Header extends React.Component<
-  HeaderPropsType,
-  Record<string, unknown>
-> {
+export class Header extends React.Component<HeaderPropsType> {
   render(): React.ReactElement {
     return React.createElement(
       `h${this.props.level}`,
