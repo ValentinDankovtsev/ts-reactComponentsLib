@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Header } from "./headerComponent/headerComponent";
 import { Paraghraph } from "./paragraphComponent/paraghraphComponent";
 import { SpaceBlock } from "./spaceBlockComponent/spaceBlockComponent";
-import { CollapseComponent } from "./collapseBlockComponent/CollapseBlockComponent";
+import { CollapseComponent } from "./collapseBlockComponent/collapseBlockComponent";
 import { ImageComponent } from "./ImageComponent/imageComponent";
 import { ColumnsComponent } from "./columnComponent/columnComponent";
 import { UserComponent } from "./userComponent/userComponent";
