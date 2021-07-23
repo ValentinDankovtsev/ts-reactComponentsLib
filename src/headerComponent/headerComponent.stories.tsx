@@ -1,6 +1,6 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import { Header, HeaderPropsType } from "./headerComponent";
+import { Header } from "./headerComponent";
 
 export default {
   component: Header,

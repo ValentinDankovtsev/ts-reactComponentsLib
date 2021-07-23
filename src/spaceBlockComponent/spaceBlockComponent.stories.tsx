@@ -1,6 +1,6 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import { SpaceBlock, SpaceBlockProps } from "./spaceBlockComponent";
+import { SpaceBlock } from "./spaceBlockComponent";
 
 export default {
   component: SpaceBlock,

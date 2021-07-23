@@ -1,10 +1,5 @@
 import React from "react";
 
-export interface SpaceBlockProps {
-  height: number;
-  border: string;
-}
-
 export class SpaceBlock extends React.Component<SpaceBlockProps> {
   render(): React.ReactElement {
     return (

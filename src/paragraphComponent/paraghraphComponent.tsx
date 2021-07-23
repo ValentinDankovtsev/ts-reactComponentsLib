@@ -1,10 +1,5 @@
 import React from "react";
 
-export interface ParaghraphComponentProps {
-  style: string;
-  text: string;
-}
-
 export class Paraghraph extends React.Component<ParaghraphComponentProps> {
   render(): JSX.Element {
     if (this.props.style === "bold") {

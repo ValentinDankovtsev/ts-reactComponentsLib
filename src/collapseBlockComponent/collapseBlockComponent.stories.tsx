@@ -1,13 +1,10 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import {
-  CollapseComponent,
-  CollapseComponentProps,
-} from "./collapseBlockComponent";
+import { CollapseComponent } from "./collapseBlockComponent";
 
 export default {
   component: CollapseComponent,
-  title: "CollapseComponent",
+  title: "Collapse",
 };
 
 const Template: Story<CollapseComponentProps> = (args) => (

@@ -1,10 +1,5 @@
 import React from "react";
 
-export interface HeaderPropsType {
-  level: number;
-  text: string;
-}
-
 export class Header extends React.Component<HeaderPropsType> {
   render(): React.ReactElement {
     return React.createElement(

@@ -1,15 +1,5 @@
 import React from "react";
 
-export interface CollapseComponentProps {
-  header: string;
-  content: string;
-  isCollapse: boolean;
-}
-
-export interface CollapseComponentState {
-  isCollapse: boolean;
-}
-
 export class CollapseComponent extends React.Component<
   CollapseComponentProps,
   CollapseComponentState

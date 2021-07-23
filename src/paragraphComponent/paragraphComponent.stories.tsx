@@ -1,6 +1,6 @@
 import React from "react";
 import { Story } from "@storybook/react";
-import { Paraghraph, ParaghraphComponentProps } from "./paraghraphComponent";
+import { Paraghraph } from "./paraghraphComponent";
 
 export default {
   component: Paraghraph,
