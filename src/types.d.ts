@@ -3,8 +3,6 @@ interface CollapseComponentProps {
   content: string;
 }
 
-
-
 interface ColumnsProps {
   columnCount: number;
   text: string;
