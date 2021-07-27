@@ -4,7 +4,7 @@ import { Header } from "../headerComponent/headerComponent";
 import { Paraghraph } from "../paragraphComponent/paraghraphComponent";
 import { ImageComponent } from "../ImageComponent/imageComponent";
 import { ColumnsComponent } from "../columnComponent/columnComponent";
-import { CollapseComponent } from "../collapseBlockComponent/CollapseBlockComponent";
+import { CollapseComponent } from "../collapseBlockComponent/collapseBlockComponent";
 import { SpaceBlock } from "../spaceBlockComponent/spaceBlockComponent";
 
 export class UserComponent extends React.Component {
