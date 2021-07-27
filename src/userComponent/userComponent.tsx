@@ -20,7 +20,10 @@ export class UserComponent extends React.Component {
       }
       switch (response) {
         case "header": {
-          const levelUser = +prompt("введите уровень заголовка", "1");
+          let levelUser = +prompt("введите уровень заголовка", "1");
+          if (levelUser >= 6) {
+            levelUser = 6;
+          }
           const textUser = prompt("введите текст", "testTextHeader");
           components.push(
             React.createElement(Header, {
