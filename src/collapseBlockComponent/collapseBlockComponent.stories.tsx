@@ -16,5 +16,4 @@ export const collapseBlockStory = Template.bind({});
 collapseBlockStory.args = {
   header: "Так выглядить заголовок первого уровня",
   content: "Посмотрите на прекрасный storybook",
-  isCollapse: false,
 };

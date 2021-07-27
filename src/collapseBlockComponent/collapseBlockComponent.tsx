@@ -1,10 +1,7 @@
 import React from "react";
 
-export class CollapseComponent extends React.Component<
-  CollapseComponentProps,
-  CollapseComponentState
-> {
-  state: CollapseComponentState = {
+export class CollapseComponent extends React.Component<CollapseComponentProps> {
+  state = {
     isCollapse: false,
   };
 

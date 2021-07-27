@@ -1,12 +1,9 @@
 interface CollapseComponentProps {
   header: string;
   content: string;
-  isCollapse: boolean;
 }
 
-interface CollapseComponentState {
-  isCollapse: boolean;
-}
+
 
 interface ColumnsProps {
   columnCount: number;

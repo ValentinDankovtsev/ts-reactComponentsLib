@@ -23,7 +23,6 @@ ReactDOM.render(
     <CollapseComponent
       header={"Проверочный header"}
       content={"Жили у бабуси два веселых гуся"}
-      isCollapse={false}
     />
     <ImageComponent
       source={"https://gohtml.ru/images/news/151--15-10-03--21-21-00.jpg"}
