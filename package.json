@@ -4,8 +4,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "lint": "prettier --check . && eslint . --ext .js,.ts,.tsx && tsc --jsx react --noEmit",
-    "lint:fix": "prettier --write . && eslint . --ext .js,.ts,.tsx --fix",
+    "lint": "prettier --check . && eslint ./src --ext .js,.ts,.tsx && tsc --noEmit",
+    "lint:fix": "prettier --write . && eslint . --fix --ext .js,.ts,.tsx && tsc --noEmit",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "storybook": "start-storybook -p 6006",
