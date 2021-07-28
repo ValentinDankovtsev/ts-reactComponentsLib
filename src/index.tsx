@@ -7,6 +7,7 @@ import { CollapseComponent } from "./collapseBlockComponent/collapseBlockCompone
 import { ImageComponent } from "./ImageComponent/imageComponent";
 import { ColumnsComponent } from "./columnComponent/columnComponent";
 import { UserComponent } from "./userComponent/userComponent";
+import {CatalogComponent} from "./hocComponent/hocComponent"
 
 ReactDOM.render(
   <>
@@ -29,6 +30,7 @@ ReactDOM.render(
       float={"right"}
     />
     <UserComponent />
+    <CatalogComponent />
   </>,
 
   document.getElementById("root")

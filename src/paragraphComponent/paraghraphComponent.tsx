@@ -1,6 +1,13 @@
 import React from "react";
 
 export class Paraghraph extends React.Component<ParaghraphComponentProps> {
+
+  static defaultProps = {
+    name:'paraghraph',
+    style:'bold',
+    text:'newText'
+  }
+
   render(): JSX.Element {
     if (this.props.style === "bold") {
       return <p style={{ fontWeight: "bold" }}>{this.props.text}</p>;

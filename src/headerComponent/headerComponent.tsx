@@ -1,6 +1,13 @@
 import React from "react";
 
 export class Header extends React.Component<HeaderPropsType> {
+
+static defaultProps={
+  name:'header',
+  leve:'1',
+  text:'text'
+}
+
   render(): React.ReactElement {
     return React.createElement(
       `h${this.props.level}`,
