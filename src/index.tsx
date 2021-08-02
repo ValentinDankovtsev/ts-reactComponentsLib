@@ -6,8 +6,7 @@ import { SpaceBlock } from "./spaceBlockComponent/spaceBlockComponent";
 import { CollapseComponent } from "./collapseBlockComponent/collapseBlockComponent";
 import { ImageComponent } from "./ImageComponent/imageComponent";
 import { ColumnsComponent } from "./columnComponent/columnComponent";
-import { UserComponent } from "./userComponent/userComponent";
-import {CatalogComponent} from "./hocComponent/hocComponent"
+import { CatalogComponent } from "./hocComponent/catalogComponent";
 
 ReactDOM.render(
   <>
@@ -20,7 +19,7 @@ ReactDOM.render(
     <Header level={1} text={"Заголовок первого уровня"} />
     <Header level={2} text={"Заголовок второго уровня"} />
     <Paraghraph style={"quote"} text={"наклонный текст"} />
-    <SpaceBlock height={100} border={"solid 3px"} />
+
     <CollapseComponent
       header={"Проверочный header"}
       content={"Жили у бабуси два веселых гуся"}
@@ -29,8 +28,9 @@ ReactDOM.render(
       source={"https://gohtml.ru/images/news/151--15-10-03--21-21-00.jpg"}
       float={"right"}
     />
-    <UserComponent />
+
     <CatalogComponent />
+    <SpaceBlock height={200} border={"solid 3px"} />
   </>,
 
   document.getElementById("root")

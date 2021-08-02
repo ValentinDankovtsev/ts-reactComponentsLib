@@ -2,7 +2,7 @@
 import React from "react";
 import { Header } from "../headerComponent/headerComponent";
 import { Paraghraph } from "../paragraphComponent/paraghraphComponent";
-import { ImageComponent } from "../ImageComponent/imageComponent";
+import { ImageComponent } from "../imageComponent/imageComponent";
 import { ColumnsComponent } from "../columnComponent/columnComponent";
 import { CollapseComponent } from "../collapseBlockComponent/collapseBlockComponent";
 import { SpaceBlock } from "../spaceBlockComponent/spaceBlockComponent";
@@ -58,11 +58,11 @@ export class UserComponent extends React.Component {
           const floatUser = prompt(
             "Напишите как кртинка будет обтекать текстом: left, right, none",
             "right"
-          );
+          ) as "left" | "none" | "right";
           components.push(
             React.createElement(ImageComponent, {
               source: sourceUser,
-              float: floatUser as "left" | "right" | "none",
+              float: floatUser,
               key: 3,
             })
           );

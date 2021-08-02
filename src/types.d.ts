@@ -15,7 +15,7 @@ interface HeaderPropsType {
 
 interface ImageComponentProps {
   source: string;
-  float: "left" | "right" | "none";
+  float?: "left" | "none" | "right";
 }
 
 interface ParaghraphComponentProps {
@@ -26,4 +26,8 @@ interface ParaghraphComponentProps {
 interface SpaceBlockProps {
   height: number;
   border: string;
+}
+
+interface ComponentWithDefaultProps extends React.Component {
+  defaultProps: Record<string, any>;
 }

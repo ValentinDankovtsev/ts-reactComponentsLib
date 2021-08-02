@@ -1,6 +1,12 @@
 import React from "react";
 
 export class ColumnsComponent extends React.Component<ColumnsProps> {
+  static defaultProps = {
+    name: "columns",
+    columnCount: 4,
+    text: "заполнение текстом",
+  };
+
   render(): React.ReactElement {
     const result = [];
 

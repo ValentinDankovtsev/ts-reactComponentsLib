@@ -1,12 +1,14 @@
 import React from "react";
 
-export class Header extends React.Component<HeaderPropsType> {
-
-static defaultProps={
-  name:'header',
-  leve:'1',
-  text:'text'
-}
+export class Header extends React.Component<
+  Record<string, unknown>,
+  HeaderPropsType
+> {
+  static defaultProps = {
+    name: "header",
+    level: "1",
+    text: "text",
+  };
 
   render(): React.ReactElement {
     return React.createElement(

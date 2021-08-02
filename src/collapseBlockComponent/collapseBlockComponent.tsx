@@ -5,6 +5,12 @@ export class CollapseComponent extends React.Component<CollapseComponentProps> {
     isCollapse: false,
   };
 
+  static defaultProps = {
+    name: "collapse",
+    header: "header defolt",
+    content: "some content",
+  };
+
   toggle = (): void => this.setState({ isCollapse: !this.state.isCollapse });
 
   render(): React.ReactElement {

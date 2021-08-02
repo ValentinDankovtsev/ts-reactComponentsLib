@@ -1,6 +1,12 @@
 import React from "react";
 
 export class SpaceBlock extends React.Component<SpaceBlockProps> {
+  static defaultProps = {
+    name: "space",
+    height: 20,
+    border: "solid 3px",
+  };
+
   render(): React.ReactElement {
     return (
       <div
