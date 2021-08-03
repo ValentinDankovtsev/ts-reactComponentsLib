@@ -4,7 +4,7 @@ import { Header } from "./headerComponent/headerComponent";
 import { Paraghraph } from "./paragraphComponent/paraghraphComponent";
 import { SpaceBlock } from "./spaceBlockComponent/spaceBlockComponent";
 import { CollapseComponent } from "./collapseBlockComponent/collapseBlockComponent";
-import { ImageComponent } from "./ImageComponent/imageComponent";
+import { ImageComponent } from "./imageComponent/imageComponent";
 import { ColumnsComponent } from "./columnComponent/columnComponent";
 import { CatalogComponent } from "./hocComponent/catalogComponent";
 
