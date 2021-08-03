@@ -98,7 +98,6 @@
       "eslint --cache --fix --ext .js,.ts"
     ]
   },
-  "description": "",
   "loki": {
     "configurations": {
       "chrome.laptop": {
@@ -113,5 +112,6 @@
         "preset": "iPhone 7"
       }
     }
-  }
+  },
+  "description": ""
 }

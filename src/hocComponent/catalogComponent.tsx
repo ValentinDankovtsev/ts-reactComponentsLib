@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent } from "react";
+import React from "react";
 import { Header } from "../headerComponent/headerComponent";
 import { Paraghraph } from "../paragraphComponent/paraghraphComponent";
 import { CollapseComponent } from "../collapseBlockComponent/collapseBlockComponent";
@@ -6,8 +6,6 @@ import { ColumnsComponent } from "../columnComponent/columnComponent";
 import { ImageComponent } from "../imageComponent/imageComponent";
 import { SpaceBlock } from "../spaceBlockComponent/spaceBlockComponent";
 import { higherOrderComponent } from "../hocComponent/higherOrderComponent";
-
-// export type CatalogComponentPropsType={};
 
 type CatalogComponentState = {
   isNameComponent: boolean;
